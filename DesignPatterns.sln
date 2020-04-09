@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.SingleRespon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.OpenClosedPrinciple", "DesignPatterns.OpenClosedPrinciple\DesignPatterns.OpenClosedPrinciple.csproj", "{0F08CC14-56C6-4D1C-9241-A87DF642F303}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.LiskovSubstitutionPrinciple", "DesignPatterns.LiskovSubstitutionPrinciple\DesignPatterns.LiskovSubstitutionPrinciple.csproj", "{86977E3C-2FEE-495C-BE34-059BA76797AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0F08CC14-56C6-4D1C-9241-A87DF642F303}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F08CC14-56C6-4D1C-9241-A87DF642F303}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F08CC14-56C6-4D1C-9241-A87DF642F303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86977E3C-2FEE-495C-BE34-059BA76797AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86977E3C-2FEE-495C-BE34-059BA76797AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86977E3C-2FEE-495C-BE34-059BA76797AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86977E3C-2FEE-495C-BE34-059BA76797AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
