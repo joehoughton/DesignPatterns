@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 
+/// <summary>
+/// Every module or class should have responsibility over a single part of the functionality provided by the software
+/// That responsibility should be entirely encapsulated by the class, module or function
+/// </summary>
 namespace DesignPatterns.SingleResponsibilityPrinciple
 {
     /// <summary>
