@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2018
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.SingleResponsibilityPrinciple", "DesignPatterns.SingleResponsibilityPrinciple\DesignPatterns.SingleResponsibilityPrinciple.csproj", "{8AF30333-F05F-471C-8F66-B96125B2B7F8}"
 EndProject
@@ -26,6 +26,18 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.FunctionalBuilder", "DesignPatterns.FunctionalBuilder\DesignPatterns.FunctionalBuilder.csproj", "{09D93444-4E30-4126-B055-0EAB9DCB995C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.FacetedBuilder", "DesignPatterns.FacetedBuilder\DesignPatterns.FacetedBuilder.csproj", "{B73770BF-29B3-4E44-9BB1-3714B26F64E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factories", "Factories", "{6810B892-BDD2-4D6F-9A44-8FB302AAA9EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.FactoryMethod", "DesignPatterns.FactoryMethod\DesignPatterns.FactoryMethod.csproj", "{B1469E3C-11FD-42DB-8694-0D9F48BB6619}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.AsynchronousFactoryMethod", "DesignPatterns.AsynchronousFactoryMethod\DesignPatterns.AsynchronousFactoryMethod.csproj", "{D8DCD702-AAD0-4CD9-A656-F87EB396343E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Factory", "DesignPatterns.Factory\DesignPatterns.Factory.csproj", "{34B5F5AE-89B8-472C-89C7-97F59EC2F425}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.InnerFactory", "DesignPatterns.InnerFactory\DesignPatterns.InnerFactory.csproj", "{EFADC00D-76C6-43EC-A47C-5319F25DC066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.AbstractFactory", "DesignPatterns.AbstractFactory\DesignPatterns.AbstractFactory.csproj", "{1D1FE16E-85FF-4430-A3FD-A2E17F37503D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +85,26 @@ Global
 		{B73770BF-29B3-4E44-9BB1-3714B26F64E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B73770BF-29B3-4E44-9BB1-3714B26F64E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B73770BF-29B3-4E44-9BB1-3714B26F64E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1469E3C-11FD-42DB-8694-0D9F48BB6619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1469E3C-11FD-42DB-8694-0D9F48BB6619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1469E3C-11FD-42DB-8694-0D9F48BB6619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1469E3C-11FD-42DB-8694-0D9F48BB6619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8DCD702-AAD0-4CD9-A656-F87EB396343E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8DCD702-AAD0-4CD9-A656-F87EB396343E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8DCD702-AAD0-4CD9-A656-F87EB396343E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8DCD702-AAD0-4CD9-A656-F87EB396343E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34B5F5AE-89B8-472C-89C7-97F59EC2F425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34B5F5AE-89B8-472C-89C7-97F59EC2F425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34B5F5AE-89B8-472C-89C7-97F59EC2F425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34B5F5AE-89B8-472C-89C7-97F59EC2F425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFADC00D-76C6-43EC-A47C-5319F25DC066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFADC00D-76C6-43EC-A47C-5319F25DC066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFADC00D-76C6-43EC-A47C-5319F25DC066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFADC00D-76C6-43EC-A47C-5319F25DC066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D1FE16E-85FF-4430-A3FD-A2E17F37503D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D1FE16E-85FF-4430-A3FD-A2E17F37503D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D1FE16E-85FF-4430-A3FD-A2E17F37503D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D1FE16E-85FF-4430-A3FD-A2E17F37503D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,6 +120,11 @@ Global
 		{15880D8A-C84A-4F76-AAF5-D24D58775DA2} = {3A3291B3-A6C0-4650-88C1-C1A0ABE60F03}
 		{09D93444-4E30-4126-B055-0EAB9DCB995C} = {3A3291B3-A6C0-4650-88C1-C1A0ABE60F03}
 		{B73770BF-29B3-4E44-9BB1-3714B26F64E4} = {3A3291B3-A6C0-4650-88C1-C1A0ABE60F03}
+		{B1469E3C-11FD-42DB-8694-0D9F48BB6619} = {6810B892-BDD2-4D6F-9A44-8FB302AAA9EF}
+		{D8DCD702-AAD0-4CD9-A656-F87EB396343E} = {6810B892-BDD2-4D6F-9A44-8FB302AAA9EF}
+		{34B5F5AE-89B8-472C-89C7-97F59EC2F425} = {6810B892-BDD2-4D6F-9A44-8FB302AAA9EF}
+		{EFADC00D-76C6-43EC-A47C-5319F25DC066} = {6810B892-BDD2-4D6F-9A44-8FB302AAA9EF}
+		{1D1FE16E-85FF-4430-A3FD-A2E17F37503D} = {6810B892-BDD2-4D6F-9A44-8FB302AAA9EF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {273FDA0E-CBD8-4B4F-9E6A-62D56F5404D0}
