@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30320.27
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.SingleResponsibilityPrinciple", "DesignPatterns.SingleResponsibilityPrinciple\DesignPatterns.SingleResponsibilityPrinciple.csproj", "{8AF30333-F05F-471C-8F66-B96125B2B7F8}"
 EndProject
@@ -38,6 +38,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.InnerFactory", "DesignPatterns.InnerFactory\DesignPatterns.InnerFactory.csproj", "{EFADC00D-76C6-43EC-A47C-5319F25DC066}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.AbstractFactory", "DesignPatterns.AbstractFactory\DesignPatterns.AbstractFactory.csproj", "{1D1FE16E-85FF-4430-A3FD-A2E17F37503D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Prototype", "{3F66C691-C748-470B-95A9-F86A6BF25D6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.ExplicitDeepCopyInterface", "DesignPatterns.ExplicitDeepCopyInterface\DesignPatterns.ExplicitDeepCopyInterface.csproj", "{3CDB9983-BD2B-4C50-8387-655C0FFA84E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.CopyThroughSerialization", "DesignPatterns.CopyThroughSerialization\DesignPatterns.CopyThroughSerialization.csproj", "{58CA3D40-D152-40B3-A9A3-48867402F103}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +111,14 @@ Global
 		{1D1FE16E-85FF-4430-A3FD-A2E17F37503D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D1FE16E-85FF-4430-A3FD-A2E17F37503D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D1FE16E-85FF-4430-A3FD-A2E17F37503D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CDB9983-BD2B-4C50-8387-655C0FFA84E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CDB9983-BD2B-4C50-8387-655C0FFA84E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CDB9983-BD2B-4C50-8387-655C0FFA84E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CDB9983-BD2B-4C50-8387-655C0FFA84E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58CA3D40-D152-40B3-A9A3-48867402F103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58CA3D40-D152-40B3-A9A3-48867402F103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58CA3D40-D152-40B3-A9A3-48867402F103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58CA3D40-D152-40B3-A9A3-48867402F103}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -125,6 +139,8 @@ Global
 		{34B5F5AE-89B8-472C-89C7-97F59EC2F425} = {6810B892-BDD2-4D6F-9A44-8FB302AAA9EF}
 		{EFADC00D-76C6-43EC-A47C-5319F25DC066} = {6810B892-BDD2-4D6F-9A44-8FB302AAA9EF}
 		{1D1FE16E-85FF-4430-A3FD-A2E17F37503D} = {6810B892-BDD2-4D6F-9A44-8FB302AAA9EF}
+		{3CDB9983-BD2B-4C50-8387-655C0FFA84E8} = {3F66C691-C748-470B-95A9-F86A6BF25D6B}
+		{58CA3D40-D152-40B3-A9A3-48867402F103} = {3F66C691-C748-470B-95A9-F86A6BF25D6B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {273FDA0E-CBD8-4B4F-9E6A-62D56F5404D0}
