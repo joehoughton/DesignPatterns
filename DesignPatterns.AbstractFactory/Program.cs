@@ -1,11 +1,13 @@
 ﻿using System;
 using static System.Console;
-
 using System.Collections.Generic;
 
 namespace DesignPatterns.AbstractFactory
 {
     /// <summary>
+    /// Factory method pattern is a creational pattern that uses factory methods to deal with the problem of creating objects
+    /// without having to specify the exact class of the object that will be created
+    /// 
     /// Abstract factory is used to give out abstract objects as opposed to concrete objects
     /// Demonstrated by our IHotDrinkFactory
     /// </summary>
@@ -18,7 +20,7 @@ namespace DesignPatterns.AbstractFactory
     {
         public void Consume()
         {
-            WriteLine("This is nice, but I'd prefer it with milk.");
+            WriteLine("This is nice, but I'd prefer it with milk");
         }
     }
 
@@ -26,7 +28,7 @@ namespace DesignPatterns.AbstractFactory
     {
         public void Consume()
         {
-            WriteLine("This coffee is delicious!");
+            WriteLine("This coffee is delicious");
         }
     }
 
@@ -39,7 +41,7 @@ namespace DesignPatterns.AbstractFactory
     {
         public IHotDrink Prepare(int amount)
         {
-            WriteLine($"Put in a tea bag, boil water, pour {amount} ml, add lemon, enjoy!");
+            WriteLine($"Put in a tea bag, boil water, pour {amount} ml, add lemon");
 
             return new Tea();
         }
@@ -56,7 +58,7 @@ namespace DesignPatterns.AbstractFactory
     }
 
     /// <summary>
-    /// Breaks Open-Closed principle, we have to go into the hot drink machine to add another AvailableDrink
+    /// Breaks Open-Closed principle, we have to go into the hot drink machine to add another AvailableDrink, e.g. hot chocolate
     /// </summary>
     public class HotDrinkMachine
     {
